@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Teste } from "../pages/Home";
+import { Principal } from "../pages";
+import { Menu } from "../components/Menu";
 export function AppRoutes(){
     return(
         <BrowserRouter>
+        <Menu />
             <Routes>
-                <Route path="/" element={<Teste />}></Route>
+                <Route path="/" element={<Principal />}></Route>
             </Routes>
         </BrowserRouter>
     )
