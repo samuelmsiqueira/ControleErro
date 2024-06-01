@@ -4,7 +4,10 @@ export function Principal(){
 
     return(
         <Style.Home>
-            
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </Style.Home>
     )
 }
