@@ -12,7 +12,7 @@ export function Menu(){
         <div>
             <ul>
                 <li><a href="/Sistemas">Sistemas</a></li>
-                <li><a href="">Controle Financeiro</a></li>
+                <li><a href="/Controle">Controle</a></li>
                 <li><a href="">Relátorios</a></li>
                 <li><a href="">Modulos</a></li>
             </ul>

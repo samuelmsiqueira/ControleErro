@@ -123,8 +123,8 @@ export function Sistemas() {
     <Style.Sistema>
       <div>
         <button className="Sistemas" onClick={() => { alteraTexto('Financeiro'); return null; }}  ><h2>Módulo Financeiro</h2></button>
-        <button className="Sistemas" onClick={() => { alteraTexto('RH'); return null; }}><h2>Módulo Financeiro</h2></button>
-        <button className="Sistemas" onClick={() => { alteraTexto('Estoque'); return null; }}><h2>Módulo Financeiro</h2></button>
+        <button className="Sistemas" onClick={() => { alteraTexto('RH'); return null; }}><h2>Módulo RH</h2></button>
+        <button className="Sistemas" onClick={() => { alteraTexto('Estoque'); return null; }}><h2>Módulo Estoque</h2></button>
       </div>
       <div>
         <div>
