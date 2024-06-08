@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import * as Style from "../styles/pages/sistema"
+import React, { useState } from "react";
+import * as Style from "../styles/pages/sistema";
 export function Sistemas() {
   type Conteudo = {
     Titulo: string;
